@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #F8D7E0, #D1A4F5);
+    color: #7A2964;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #F1C6E7;
+}
+nav .left-links a, nav .right-links a, nav .right-links button {
+    text-decoration: none;
+    color: #7A2964;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+nav .right-links button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+nav .left-links a:hover, nav .right-links a:hover, nav .right-links button:hover {
+    color: #AE3C87;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(235, 42, 148, 0.993);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #e41e91;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: linear-gradient(135deg, #F8D7E0, #D1A4F5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button.add-item {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.add-item:hover {
+    background-color: #45a049;
+}
+
+.shopping-list ul {
+    margin-top: 10px;
+}
+
+.shopping-list li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.search-items input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.search-items ul {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.search-items li {
+    margin: 5px 0;
+}
+
+.search-items button {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3EAF8; /* Background color to match the image */
+    color: #5D3A6E;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.form-section {
+    margin: 20px 0;
+}
+
+.form-container {
+    background-color: #BA7BB8;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    color: #E0CBE2;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #D59DD6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #C185C5;
+}
+
+.tips-section {
+    margin: 20px 0;
+}
+
+.tips-section h2 {
+    color: #5D3A6E;
+    margin-bottom: 20px;
+}
+
+.tip {
+    display: flex;
+    align-items: left;
+    background-color: #E0CBE2;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tip .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.tip-content {
+    margin: 0;
+    color: #5D3A6E;
+    text-align: left;
+}
+
+.tip-content p {
+    margin: 0;
+    color: #7A577E;
+    font-size: 14px;
+}
